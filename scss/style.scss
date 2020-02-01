@@ -1,0 +1,14 @@
+@import "normalize";
+@import "variables";
+
+/* Components */
+
+@import "components/component-answers";
+@import "components/component-questions";
+@import "components/component-quiz";
+@import "components/component-start-quiz";
+@import "components/component-header";
+
+/*  section */
+
+@import "layout";

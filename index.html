@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Quiz</title>
+
+
+
+</head>
+
+<body>
+    <button class="quiz">Quiz</button>
+    <button class=" quiz quiz-header">Temat quizu: Co wiesz na temat Wszechświata? </button>
+    <div class="quiz_display">
+        <div class="quiz_display_image">
+            <img class="quiz_display_button" src="images/black-telescope.jpg">
+        </div>
+        <div class="quiz_display_btn">
+            <button class="quiz_start_btn" id="quiz_start">Rozpocznij quiz</button>
+        </div>
+    </div>
+
+    <div>
+
+    </div>
+    <div>
+
+        <div class="display_game_area" id="game_area" style="display: none">
+            <div id="question"></div>
+
+            <div class="question_progress_wrapper">
+                <div id="question_progress"></div>
+            </div>
+            <div class="time">
+                <div id="time_question"></div>
+            </div>
+            <div class="display_game_button">
+                <button class="display_game-btn" data-answer="a" id="answer_a"></button>
+                <button class="display_game-btn" data-answer="b" id="answer_b"></button>
+                <button class="display_game-btn" data-answer="c" id="answer_c"></button>
+                <button class="display_game-btn" data-answer="d" id="answer_d"></button>
+
+
+
+
+            </div>
+
+
+            <div id="answer_info" style="display: none;">
+                <img id="answer_image" />
+                <p id="answer_description"></p>
+            </div>
+
+        </div>
+        <div id="end_game" style="display: none;">
+            <ul id="results"></ul>
+            <div id="sum"></div>
+            <button class="end_game_btn" id="again">Zagraj jeszcze raz!</button>
+        </div>
+
+        <button class="quiz next-question" id="next-question">Następne pytanie</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
