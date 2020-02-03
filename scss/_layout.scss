@@ -33,6 +33,9 @@
             .quiz.quiz-header {
                 font-size: 20px;
             }
+            #answer_image {
+                width: 100%;
+            }
         }
         
         @media (max-width: 800px) {
@@ -64,6 +67,9 @@
             .quiz.quiz-header {
                 font-size: 20px;
             }
+            #answer_image {
+                width: 100%;
+            }
         }
         
         @media(max-width: 640px) {
@@ -92,6 +98,12 @@
             }
             .quiz.quiz-header {
                 font-size: 20px;
+            }
+            .quiz_display_button {
+                width: 100%;
+            }
+            #answer_image {
+                width: 100%;
             }
         }
         
@@ -122,6 +134,12 @@
             .quiz.quiz-header {
                 font-size: 20px;
             }
+            .quiz_display_button {
+                width: 100%;
+            }
+            #answer_image {
+                width: 100%;
+            }
         }
         
         @media (max-width: 320px) {
@@ -150,5 +168,11 @@
             }
             .quiz.quiz-header {
                 font-size: 20px;
+            }
+            .quiz_display_button {
+                width: 100%;
+            }
+            #answer_image {
+                width: 100%;
             }
         }
