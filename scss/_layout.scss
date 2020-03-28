@@ -135,10 +135,10 @@
                 margin-bottom: 25px;
             }
             .quiz {
-                font-size: 25px;
+                font-size: 20px;
             }
             .quiz.quiz-header {
-                font-size: 20px;
+                font-size: 18px;
             }
             .quiz_display_button {
                 width: 100%;
@@ -147,7 +147,7 @@
                 width: 100%;
             }
             .end_game_btn {
-                font-size: 25px;
+                font-size: 20px;
             }
         }
         
@@ -173,7 +173,7 @@
                 margin-bottom: 25px;
             }
             .quiz {
-                font-size: 25px;
+                font-size: 20px;
             }
             .quiz.quiz-header {
                 font-size: 20px;
@@ -185,6 +185,12 @@
                 width: 100%;
             }
             .end_game_btn {
-                font-size: 25px;
+                font-size: 20px;
+            }
+            #question {
+                font-size: 22px;
+            }
+            .display_game_button .display_game-btn {
+                font-size: 16px;
             }
         }
